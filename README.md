@@ -1,7 +1,11 @@
 [![Build Status](https://travis-ci.com/ssm29njit/calculator601SJ.svg?branch=master)](https://travis-ci.com/ssm29njit/calculator601SJ)
 
-## Calculator Project
+# Calculator Project
 
-##Mathematical Functions
+## Mathematical Functions
 
-#Random Generator
+## Random Generator
+
+## Statistical Calculator
+
+## CSV Reader
