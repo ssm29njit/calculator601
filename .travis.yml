@@ -6,4 +6,4 @@ service:
 script:
   - ci_post_cov="bash <(curl -s https://codecov.io/bash) -t $token"
   - ci_env="bash <(curl -s https://codecov.io/env)"
-  - docker run https://github.com/ssm29njit/calculator601SJ.git /bin/bash -c "$ci_env && coverage run -m unittest && $ci_post_cov"
+  - docker run ssm29njit/calculator601SJ /bin/bash -c "$ci_env && coverage run -m unittest && $ci_post_cov"
